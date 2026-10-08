@@ -1,0 +1,603 @@
+{
+  "status": "confirmed",
+  "stage": "deepening",
+  "consent_to_check": true,
+  "completeness": {
+    "filled": 16,
+    "total": 17,
+    "missing": [
+      "16. Особые случаи (тема не звучала)"
+    ]
+  },
+  "user": {
+    "role": "initiator",
+    "city": "Нижний Новгород"
+  },
+  "safety": {
+    "signals": [
+      "партнёр контролирует деньги",
+      "крик и битьё посуды"
+    ],
+    "risk": "fear_only",
+    "notes": "Прямой вопрос задан. Угроз и насилия нет, руку не поднимал; не боится, не хочет скандалов при детях. Совет про 112 не давался."
+  },
+  "context": {
+    "summary": "Брак с 08.2006, двое детей. Муж единоличный владелец ООО, официальный доход 30 тыс. при заявленных 300+ тыс. Квартира на жене, куплена в браке. Дом на участке свекрови. Муж знает о разводе, против.",
+    "what_matters_most": "Остаться с детьми в квартире, алименты не с 30 тыс., деньги на учёбу Кирилла, по возможности без суда."
+  },
+  "parties": {
+    "sides": [
+      "Ирина (инициатор)",
+      "Андрей (муж)",
+      "Кирилл, 17",
+      "Полина, 8"
+    ],
+    "third_parties_affected": [
+      {
+        "who": "Мать мужа",
+        "how": "Участок под домом записан на неё; дом не зарегистрирован"
+      },
+      {
+        "who": "Банк-кредитор ООО",
+        "how": "Ирина поручитель по кредиту 5 млн"
+      },
+      {
+        "who": "ООО «Стройснаб»",
+        "how": "Доля 100% у мужа; на балансе Land Cruiser; заёмщик по кредиту 5 млн"
+      }
+    ],
+    "mentioned_not_affected": [
+      {
+        "who": "«Подруга» мужа",
+        "why": "Подозрение без оснований, на правовую картину не влияет"
+      }
+    ]
+  },
+  "screening": {
+    "children": "present",
+    "health_and_dependents": "absent",
+    "real_estate": "present",
+    "land": "present",
+    "vehicles": "present",
+    "financial_assets": "present",
+    "business": "present",
+    "ip_rights": "absent",
+    "valuables": "absent",
+    "debts": "present",
+    "bankruptcy": "absent",
+    "encumbrances_disputes": "absent",
+    "transactions": "present",
+    "foreign_element": "absent",
+    "income": "present",
+    "special_cases": "not_asked"
+  },
+  "key_issues": [
+    {
+      "issue": "Реальный доход мужа и форма алиментов",
+      "why": "Официально 30 тыс., реально 300+ тыс. со слов; подтверждений нет"
+    },
+    {
+      "issue": "Доля в ООО",
+      "why": "Создано в браке, 100% на муже; оценка неизвестна"
+    },
+    {
+      "issue": "Дом на участке свекрови",
+      "why": "Вложения фирмы, дом не зарегистрирован, участок чужой — спорное"
+    },
+    {
+      "issue": "Поручительство по кредиту ООО 5 млн",
+      "why": "Личное обязательство Ирины; остаток неизвестен"
+    }
+  ],
+  "direct_questions": [
+    {
+      "question": "Квартира на мне — её же не будут делить?",
+      "preliminary_answer": "Куплена в браке — общая, по общему правилу пополам независимо от оформления"
+    },
+    {
+      "question": "Если фирма его, мне что-то положено?",
+      "preliminary_answer": "Доля в ООО, созданном в браке, общая; нужна оценка"
+    },
+    {
+      "question": "Алименты считают с 30 тысяч?",
+      "preliminary_answer": "Общее правило ~1/3 на двоих = ~10 тыс.; при неофициальном доходе возможна твёрдая сумма"
+    },
+    {
+      "question": "Дача на свекрови — значит, всё, забудь?",
+      "preliminary_answer": "Нет, спорное: вложения могут учитываться"
+    },
+    {
+      "question": "Кириллу 17 — на него алименты ещё будут?",
+      "preliminary_answer": "До 18; учёба после 18 только по соглашению"
+    }
+  ],
+  "first_picture_given": true,
+  "facts": [
+    {
+      "fact": "Брак зарегистрирован 08.2006",
+      "why_legally_relevant": "Общим считается нажитое после регистрации",
+      "norm": "СК 34",
+      "certainty": "known"
+    },
+    {
+      "fact": "Квартира куплена в 2011 в браке на общие доходы, без ипотеки, без маткапитала, оформлена на жену",
+      "why_legally_relevant": "Общая независимо от оформления",
+      "norm": "СК 34",
+      "certainty": "known"
+    },
+    {
+      "fact": "ООО создано в 2009 в браке на общие деньги, 100% на муже",
+      "why_legally_relevant": "Доля, появившаяся в браке, общая, кто бы ни управлял",
+      "norm": "СК 34",
+      "certainty": "known"
+    },
+    {
+      "fact": "Дом построен в 2018–2021 на деньги фирмы на участке матери мужа, не зарегистрирован",
+      "why_legally_relevant": "Вложения в чужое имущество; вердикт «спорное»",
+      "norm": "ГК 1102",
+      "certainty": "known"
+    },
+    {
+      "fact": "Двое общих несовершеннолетних детей, живут с матерью; отец не спорит",
+      "why_legally_relevant": "Развод в суде; алименты 1/3 на двоих",
+      "norm": "СК 21–24, 81",
+      "certainty": "known"
+    },
+    {
+      "fact": "Официальный доход мужа 30 тыс., реальный 300+ тыс. (со слов)",
+      "why_legally_relevant": "Основание для твёрдой суммы алиментов",
+      "norm": "СК 83",
+      "certainty": "approx"
+    },
+    {
+      "fact": "Ирина поручитель по кредиту ООО на 5 млн (2023)",
+      "why_legally_relevant": "Личное обязательство перед банком",
+      "norm": null,
+      "certainty": "known"
+    },
+    {
+      "fact": "Кредит мужа 1,5 млн (2025), назначение неизвестно",
+      "why_legally_relevant": "Общим долгом считается взятый на нужды семьи",
+      "norm": "СК 45",
+      "certainty": "unknown"
+    },
+    {
+      "fact": "Муж продал вторую машину фирмы в 2025 «на всякий случай»",
+      "why_legally_relevant": "Сделка последних лет; вывода нет",
+      "norm": null,
+      "certainty": "approx"
+    },
+    {
+      "fact": "Полина: плавание и логопед ~18 тыс. в месяц",
+      "why_legally_relevant": "Расходы на ребёнка",
+      "norm": "СК 86",
+      "certainty": "approx"
+    }
+  ],
+  "not_legally_relevant": [
+    {
+      "fact": "Подозрение, что кредит мужа взят «на подругу»",
+      "why": "Суд не разбирает, кто виноват; важно лишь, на какие нужды взят долг"
+    },
+    {
+      "fact": "Угрозы мужа «останешься ни с чем»",
+      "why": "Не меняют правовой режим имущества"
+    }
+  ],
+  "unclear": [
+    {
+      "what": "Реальный доход мужа",
+      "affects": "размер и форма алиментов",
+      "document": "выписки по счетам, налоговые декларации и бухгалтерская отчётность ООО"
+    },
+    {
+      "what": "Счета и накопления мужа",
+      "affects": "состав общего имущества",
+      "document": "выписки банков"
+    },
+    {
+      "what": "Вложения в дом",
+      "affects": "вердикт по дому",
+      "document": "договоры подряда, платёжные документы, акты"
+    },
+    {
+      "what": "Стоимость доли ООО",
+      "affects": "сумма раздела",
+      "document": "учредительные документы, отчётность, оценка"
+    },
+    {
+      "what": "Назначение кредита 1,5 млн",
+      "affects": "считается ли долг общим",
+      "document": "кредитный договор"
+    },
+    {
+      "what": "Остаток кредита ООО 5 млн",
+      "affects": "размер риска по поручительству",
+      "document": "кредитный договор, договор поручительства, справка банка"
+    },
+    {
+      "what": "Покупатель второй машины фирмы",
+      "affects": "оценка сделки",
+      "document": "договор купли-продажи"
+    },
+    {
+      "what": "Другие бизнесы и доли мужа",
+      "affects": "состав имущества",
+      "document": "выписки ЕГРЮЛ/ЕГРИП"
+    }
+  ],
+  "marriage": {
+    "registration_date": {
+      "value": "2006-08",
+      "certainty": "known"
+    },
+    "separation_date": {
+      "value": null,
+      "certainty": "unknown"
+    },
+    "prenup": false
+  },
+  "children": [
+    {
+      "age": 17,
+      "common": true,
+      "born_before_marriage": false,
+      "lives_with": "мать",
+      "residence_after": "agreed",
+      "partner_position": "не спорит",
+      "contact_with_other_parent": "редко",
+      "expenses": "поступает в вуз в 2027",
+      "notes": "11 класс"
+    },
+    {
+      "age": 8,
+      "common": true,
+      "born_before_marriage": false,
+      "lives_with": "мать",
+      "residence_after": "agreed",
+      "partner_position": "не спорит",
+      "contact_with_other_parent": "редко",
+      "expenses": "плавание, логопед ~18 тыс./мес",
+      "notes": null
+    }
+  ],
+  "health_and_dependents": {
+    "pregnancy": false,
+    "child_under_3": false,
+    "disability_or_illness": false,
+    "dependents": null
+  },
+  "assets": [
+    {
+      "type": "apartment",
+      "description": "3-комн., Нижний Новгород",
+      "country": "RU",
+      "acquired": {
+        "value": "2011",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "common",
+        "details": "только общие доходы"
+      },
+      "registered_to": "Ирина",
+      "loan": {
+        "exists": false,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": false,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": "Ирина и дети",
+      "approx_value": "~11 млн",
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "куплена в браке, оформление значения не имеет",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 2
+    },
+    {
+      "type": "house",
+      "description": "Дом в Кстовском районе, строили 2018–2021, не зарегистрирован",
+      "country": "RU",
+      "acquired": {
+        "value": "2018–2021",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "unknown",
+        "details": "со слов: деньги фирмы («наши»); суммы и документы неизвестны"
+      },
+      "registered_to": "не зарегистрирован",
+      "loan": {
+        "exists": false,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": "деньги фирмы, суммы неизвестны",
+      "encumbrances": null,
+      "use": null,
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "disputed",
+        "reason": "участок матери мужа, дом не оформлен, вложения фирмы",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 2
+    },
+    {
+      "type": "land",
+      "description": "Участок в Кстовском районе",
+      "country": "RU",
+      "acquired": {
+        "value": "неизвестно",
+        "before_marriage": null
+      },
+      "funds_source": {
+        "value": "unknown",
+        "details": null
+      },
+      "registered_to": "мать мужа",
+      "loan": {
+        "exists": null,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": null,
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "unknown",
+        "reason": "участок семье не принадлежит",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 0
+    },
+    {
+      "type": "vehicle",
+      "description": "Toyota Land Cruiser 2022",
+      "country": "RU",
+      "acquired": {
+        "value": "2022",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "unknown",
+        "details": null
+      },
+      "registered_to": "ООО «Стройснаб» (на балансе)",
+      "loan": {
+        "exists": null,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": "муж",
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "unknown",
+        "reason": "имущество общества, учитывается через стоимость доли",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 1
+    },
+    {
+      "type": "vehicle",
+      "description": "Kia Rio 2019",
+      "country": "RU",
+      "acquired": {
+        "value": "2019",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "common",
+        "details": null
+      },
+      "registered_to": "Ирина",
+      "loan": {
+        "exists": null,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": "Ирина",
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "куплена в браке на общие деньги",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 1
+    },
+    {
+      "type": "cash_deposit",
+      "description": "Счёт Ирины",
+      "country": "RU",
+      "acquired": {
+        "value": "в браке",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "common",
+        "details": "накоплено с зарплаты"
+      },
+      "registered_to": "Ирина",
+      "loan": {
+        "exists": false,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": null,
+      "approx_value": "~400 тыс.",
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "накоплено в браке",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 1
+    },
+    {
+      "type": "cash_deposit",
+      "description": "Счета мужа",
+      "country": "RU",
+      "acquired": {
+        "value": "неизвестно",
+        "before_marriage": null
+      },
+      "funds_source": {
+        "value": "unknown",
+        "details": null
+      },
+      "registered_to": "Андрей",
+      "loan": {
+        "exists": null,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": null,
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "unknown",
+        "reason": "Ирина не знает",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 0
+    },
+    {
+      "type": "business_share",
+      "description": "100% в ООО «Стройснаб»",
+      "country": "RU",
+      "acquired": {
+        "value": "2009",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "common",
+        "details": "уставный капитал 10 тыс."
+      },
+      "registered_to": "Андрей",
+      "loan": {
+        "exists": null,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": null,
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "доля появилась в браке",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 2
+    }
+  ],
+  "business": [
+    {
+      "form": "ООО «Стройснаб» (поставки стройматериалов)",
+      "status": "active",
+      "created": "2009",
+      "funds_source": "общие, уставный капитал 10 тыс.",
+      "owners": "Андрей 100%",
+      "registered_to": "Андрей",
+      "charter_restrictions": null,
+      "managed_by": "Андрей",
+      "income": "неизвестен",
+      "debts_guarantees": "кредит 5 млн, поручитель Ирина (2023)"
+    }
+  ],
+  "debts": [
+    {
+      "type": "кредит",
+      "creditor": "банк (не назван)",
+      "amount": "1,5 млн",
+      "purpose": "неизвестно (подозрение — личное)",
+      "in_whose_name": "Андрей",
+      "family_needs": null
+    },
+    {
+      "type": "поручительство по кредиту ООО",
+      "creditor": "банк (не назван)",
+      "amount": "5 млн (остаток неизвестен)",
+      "purpose": "дела фирмы",
+      "in_whose_name": "ООО; поручитель Ирина",
+      "family_needs": null
+    }
+  ],
+  "bankruptcy": {
+    "user": false,
+    "partner": false,
+    "risk": null
+  },
+  "transactions": [
+    {
+      "what": "Продажа второй машины фирмы «на всякий случай»",
+      "when": "2025",
+      "to_whom": "неизвестно",
+      "spouse_consent": false,
+      "status": "done"
+    }
+  ],
+  "foreign_element": false,
+  "income": {
+    "user": "~65 тыс./мес",
+    "partner": "официально 30 тыс.; реально 300+ тыс. со слов",
+    "official": "user: да; partner: частично",
+    "regular": "user: да; partner: неизвестно"
+  },
+  "goals": {
+    "priorities": [
+      "остаться с детьми в квартире",
+      "алименты не с 30 тыс.",
+      "деньги на учёбу Кирилла"
+    ],
+    "acceptable": "без суда, если возможно",
+    "unacceptable": "делить квартиру"
+  },
+  "partner_view": {
+    "knows_about_divorce": true,
+    "expected_reaction": "против; говорит «уйдёшь — останешься ни с чем»",
+    "conflict_level": "medium",
+    "open_to_agreement": false
+  },
+  "urgent": [],
+  "closing": {
+    "short_conclusion": "Квартира и доля в ООО общие, дом спорный; добавлены два долга; главный вопрос — реальный доход мужа.",
+    "summary_confirmed_by_user": true,
+    "document_delivered_via": "имитация: файл Svodka_Irina.docx",
+    "privacy_warning_given": true
+  }
+}
