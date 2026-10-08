@@ -1,0 +1,300 @@
+{
+  "status": "confirmed",
+  "stage": "summary",
+  "consent_to_check": true,
+  "completeness": {
+    "filled": 16,
+    "total": 17,
+    "missing": [
+      "16. Особые случаи (тема не звучала)"
+    ]
+  },
+  "user": {
+    "role": "initiator",
+    "city": "Казань"
+  },
+  "safety": {
+    "signals": [],
+    "risk": "none",
+    "notes": null
+  },
+  "context": {
+    "summary": "Брак 2014, двое детей 9 и 4. Ипотечная квартира на муже, куплена в браке, первый взнос от родителей жены, маткапитал 2019. Муж о разводе не знает.",
+    "what_matters_most": "Остаться с детьми в квартире"
+  },
+  "parties": {
+    "sides": [
+      "Анна (инициатор)",
+      "муж",
+      "дети 9 и 4"
+    ],
+    "third_parties_affected": [
+      {
+        "who": "Родители Анны",
+        "how": "Дали 800 тыс. на первый взнос"
+      },
+      {
+        "who": "Банк",
+        "how": "Держатель ипотеки, остаток ~1,9 млн"
+      }
+    ],
+    "mentioned_not_affected": []
+  },
+  "screening": {
+    "children": "present",
+    "health_and_dependents": "absent",
+    "real_estate": "present",
+    "land": "absent",
+    "vehicles": "present",
+    "financial_assets": "unknown",
+    "business": "absent",
+    "ip_rights": "absent",
+    "valuables": "absent",
+    "debts": "present",
+    "bankruptcy": "absent",
+    "encumbrances_disputes": "absent",
+    "transactions": "absent",
+    "foreign_element": "absent",
+    "income": "present",
+    "special_cases": "not_asked"
+  },
+  "key_issues": [
+    {
+      "issue": "Квартира в ипотеке на муже, куплена в браке",
+      "why": "Общая независимо от оформления; остаток долга делится"
+    },
+    {
+      "issue": "Материнский капитал 2019",
+      "why": "У детей должны быть доли; оформление неизвестно"
+    },
+    {
+      "issue": "Взнос родителей 800 тыс.",
+      "why": "Спорный: личный вклад или общие деньги — зависит от оформления подарка"
+    }
+  ],
+  "direct_questions": [
+    {
+      "question": "Смогу ли я остаться в квартире с детьми?",
+      "preliminary_answer": "Исход не обещан; квартира общая, оставить её себе можно по соглашению с мужем или по суду при разделе"
+    }
+  ],
+  "first_picture_given": true,
+  "facts": [
+    {
+      "fact": "Брак с 2014",
+      "why_legally_relevant": "Общее — нажитое после регистрации",
+      "norm": "СК 34",
+      "certainty": "known"
+    },
+    {
+      "fact": "Квартира куплена в 2016 в браке в ипотеку, записана на мужа",
+      "why_legally_relevant": "Общая независимо от оформления",
+      "norm": "СК 34",
+      "certainty": "known"
+    },
+    {
+      "fact": "Первый взнос 800 тыс. — подарок родителей Анны переводом ей без оформления",
+      "why_legally_relevant": "Подарок одному из супругов — личные деньги; вклад в общую квартиру спорный",
+      "norm": "СК 36",
+      "certainty": "known"
+    },
+    {
+      "fact": "В 2019 вложен материнский капитал",
+      "why_legally_relevant": "Жильё с маткапиталом оформляется в общую собственность родителей и детей",
+      "norm": "256-ФЗ ст.10 ч.4",
+      "certainty": "known"
+    },
+    {
+      "fact": "Дети 9 и 4 живут с обоими; заботится в основном Анна",
+      "why_legally_relevant": "Место жительства детей, алименты",
+      "norm": "СК 65, 81",
+      "certainty": "known"
+    },
+    {
+      "fact": "Машина 2021 на жене, куплена в браке, кредит закрыт",
+      "why_legally_relevant": "Общая",
+      "norm": "СК 34",
+      "certainty": "known"
+    }
+  ],
+  "not_legally_relevant": [],
+  "unclear": [
+    {
+      "what": "Оформлены ли доли детей",
+      "affects": "кому принадлежит квартира",
+      "document": "выписка из ЕГРН"
+    },
+    {
+      "what": "Размер маткапитала и остаток ипотеки",
+      "affects": "что делится",
+      "document": "справка банка, СФР"
+    },
+    {
+      "what": "Оформление подарка 800 тыс.",
+      "affects": "учёт личного вклада",
+      "document": "выписка по счёту, письменное подтверждение родителей"
+    },
+    {
+      "what": "Сбережения мужа",
+      "affects": "состав имущества",
+      "document": "выписки банков"
+    }
+  ],
+  "marriage": {
+    "registration_date": {
+      "value": "2014",
+      "certainty": "known"
+    },
+    "separation_date": {
+      "value": null,
+      "certainty": "unknown"
+    },
+    "prenup": false
+  },
+  "children": [
+    {
+      "age": 9,
+      "common": true,
+      "born_before_marriage": false,
+      "lives_with": "оба",
+      "residence_after": "unknown",
+      "partner_position": "не обсуждали",
+      "contact_with_other_parent": "живут вместе",
+      "expenses": null,
+      "notes": "заботится в основном Анна"
+    },
+    {
+      "age": 4,
+      "common": true,
+      "born_before_marriage": false,
+      "lives_with": "оба",
+      "residence_after": "unknown",
+      "partner_position": "не обсуждали",
+      "contact_with_other_parent": "живут вместе",
+      "expenses": null,
+      "notes": null
+    }
+  ],
+  "health_and_dependents": {
+    "pregnancy": false,
+    "child_under_3": false,
+    "disability_or_illness": false,
+    "dependents": null
+  },
+  "assets": [
+    {
+      "type": "apartment",
+      "description": "Квартира в Казани, ипотека",
+      "country": "RU",
+      "acquired": {
+        "value": "2016",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "mixed",
+        "details": "800 тыс. подарок родителей жены + ипотека из зарплат + маткапитал 2019"
+      },
+      "registered_to": "муж",
+      "loan": {
+        "exists": true,
+        "in_whose_name": "муж",
+        "paid_by": "зарплаты обоих, маткапитал",
+        "closed": false,
+        "remaining": "~1,9 млн"
+      },
+      "maternity_capital_or_subsidy": "да, 2019",
+      "common_investments": "взнос 800 тыс. родителей жены",
+      "encumbrances": null,
+      "use": {
+        "who_lives_or_uses": "семья",
+        "rented_out": null
+      },
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "куплена в браке; взнос родителей и доли детей — спорное",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 2
+    },
+    {
+      "type": "vehicle",
+      "description": "Машина 2021",
+      "country": "RU",
+      "acquired": {
+        "value": "2021",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "common",
+        "details": "общие доходы + кредит, закрыт"
+      },
+      "registered_to": "Анна",
+      "loan": {
+        "exists": true,
+        "in_whose_name": "Анна",
+        "paid_by": "зарплаты",
+        "closed": true,
+        "remaining": 0
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": {
+        "who_lives_or_uses": "Анна",
+        "rented_out": null
+      },
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "куплена в браке",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 1
+    }
+  ],
+  "business": [],
+  "debts": [
+    {
+      "type": "ипотека",
+      "creditor": "банк",
+      "amount": "~1,9 млн",
+      "purpose": "квартира семьи",
+      "in_whose_name": "муж",
+      "family_needs": true
+    }
+  ],
+  "bankruptcy": {
+    "user": null,
+    "partner": null,
+    "risk": null
+  },
+  "transactions": [],
+  "foreign_element": null,
+  "income": {
+    "user": "~70 тыс.",
+    "partner": "~150 тыс.",
+    "official": "оба",
+    "regular": "оба"
+  },
+  "goals": {
+    "priorities": [
+      "остаться с детьми в квартире"
+    ],
+    "acceptable": null,
+    "unacceptable": null
+  },
+  "partner_view": {
+    "knows_about_divorce": false,
+    "expected_reaction": "скорее против, особенно из-за квартиры",
+    "conflict_level": "unknown",
+    "open_to_agreement": null
+  },
+  "urgent": [],
+  "closing": {
+    "short_conclusion": "Квартира и машина общие; взнос родителей и доли детей спорные.",
+    "summary_confirmed_by_user": true,
+    "document_delivered_via": "имитация: Svodka_Anna.docx",
+    "privacy_warning_given": true
+  }
+}

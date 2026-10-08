@@ -1,0 +1,232 @@
+{
+  "status": "confirmed",
+  "stage": "summary",
+  "consent_to_check": true,
+  "completeness": {
+    "filled": 14,
+    "total": 17,
+    "missing": [
+      "15. Доходы (не спрашивали: детей нет)",
+      "16. Особые случаи (тема не звучала)",
+      "дети: пункт пропущен по правилу, раздел 2 «нет»"
+    ]
+  },
+  "user": {
+    "role": "mutual",
+    "city": null
+  },
+  "safety": {
+    "signals": [],
+    "risk": "none",
+    "notes": null
+  },
+  "context": {
+    "summary": "Брак 2021, детей нет, развод по обоюдному согласию, раздельно с весны 2026. Общие: машина 2022 на муже, вклад 300 тыс. на жене.",
+    "what_matters_most": "Развестись спокойно без суда, поделить машину и вклад пополам"
+  },
+  "parties": {
+    "sides": [
+      "Ольга",
+      "муж"
+    ],
+    "third_parties_affected": [],
+    "mentioned_not_affected": []
+  },
+  "screening": {
+    "children": "absent",
+    "health_and_dependents": "absent",
+    "real_estate": "absent",
+    "land": "absent",
+    "vehicles": "present",
+    "financial_assets": "present",
+    "business": "absent",
+    "ip_rights": "absent",
+    "valuables": "absent",
+    "debts": "absent",
+    "bankruptcy": "absent",
+    "encumbrances_disputes": "absent",
+    "transactions": "absent",
+    "foreign_element": "absent",
+    "income": "not_asked",
+    "special_cases": "not_asked"
+  },
+  "key_issues": [
+    {
+      "issue": "Вклад пополнялся и после разъезда",
+      "why": "Нажитое после фактического распада семьи суд может признать личным"
+    }
+  ],
+  "direct_questions": [],
+  "first_picture_given": true,
+  "facts": [
+    {
+      "fact": "Брак 2021",
+      "why_legally_relevant": "Общее — нажитое после регистрации",
+      "norm": "СК 34",
+      "certainty": "known"
+    },
+    {
+      "fact": "Машина 2022 на муже на общие деньги",
+      "why_legally_relevant": "Общая",
+      "norm": "СК 34",
+      "certainty": "known"
+    },
+    {
+      "fact": "Вклад 300 тыс. на жене, почти всё внесено до разъезда",
+      "why_legally_relevant": "Общий, кроме части после распада семьи",
+      "norm": "СК 34, 38",
+      "certainty": "approx"
+    },
+    {
+      "fact": "Раздельное проживание с весны 2026",
+      "why_legally_relevant": "Нажитое после — возможно личное",
+      "norm": "СК 38",
+      "certainty": "approx"
+    },
+    {
+      "fact": "Нет детей, оба согласны",
+      "why_legally_relevant": "Развод в ЗАГСе",
+      "norm": "СК 19",
+      "certainty": "known"
+    }
+  ],
+  "not_legally_relevant": [],
+  "unclear": [
+    {
+      "what": "Сумма, внесённая на вклад после разъезда",
+      "affects": "какая часть вклада общая",
+      "document": "выписка по вкладу"
+    },
+    {
+      "what": "Точная дата прекращения совместной жизни",
+      "affects": "что считается нажитым вместе",
+      "document": "договор аренды, регистрация, переписка"
+    }
+  ],
+  "marriage": {
+    "registration_date": {
+      "value": "2021",
+      "certainty": "known"
+    },
+    "separation_date": {
+      "value": "весна 2026",
+      "certainty": "unknown"
+    },
+    "prenup": false
+  },
+  "children": [],
+  "health_and_dependents": {
+    "pregnancy": false,
+    "child_under_3": false,
+    "disability_or_illness": false,
+    "dependents": null
+  },
+  "assets": [
+    {
+      "type": "vehicle",
+      "description": "Машина 2022",
+      "country": "RU",
+      "acquired": {
+        "value": "2022",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "common",
+        "details": "общие деньги, без кредита"
+      },
+      "registered_to": "муж",
+      "loan": {
+        "exists": false,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": {
+        "who_lives_or_uses": "муж",
+        "rented_out": null
+      },
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "куплена в браке",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 1
+    },
+    {
+      "type": "cash_deposit",
+      "description": "Вклад 300 тыс.",
+      "country": "RU",
+      "acquired": {
+        "value": "в браке",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "common",
+        "details": "зарплата и премии Ольги"
+      },
+      "registered_to": "Ольга",
+      "loan": {
+        "exists": null,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": {
+        "who_lives_or_uses": null,
+        "rented_out": null
+      },
+      "approx_value": "300 тыс.",
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "накоплен в браке; небольшая часть после разъезда",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 2
+    }
+  ],
+  "business": [],
+  "debts": [],
+  "bankruptcy": {
+    "user": false,
+    "partner": false,
+    "risk": null
+  },
+  "transactions": [],
+  "foreign_element": false,
+  "income": {
+    "user": null,
+    "partner": null,
+    "official": null,
+    "regular": null
+  },
+  "goals": {
+    "priorities": [
+      "развод без суда",
+      "раздел пополам"
+    ],
+    "acceptable": "пополам",
+    "unacceptable": null
+  },
+  "partner_view": {
+    "knows_about_divorce": true,
+    "expected_reaction": "согласен",
+    "conflict_level": "low",
+    "open_to_agreement": true
+  },
+  "urgent": [],
+  "closing": {
+    "short_conclusion": "Машина и вклад общие; весенний разъезд влияет только на часть вклада.",
+    "summary_confirmed_by_user": true,
+    "document_delivered_via": "имитация: Svodka_Olga.docx",
+    "privacy_warning_given": true
+  }
+}

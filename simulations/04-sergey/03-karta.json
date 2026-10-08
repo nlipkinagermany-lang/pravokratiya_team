@@ -1,0 +1,265 @@
+{
+  "status": "confirmed",
+  "stage": "summary",
+  "consent_to_check": true,
+  "completeness": {
+    "filled": 15,
+    "total": 17,
+    "missing": [
+      "16. Особые случаи (тема не звучала)"
+    ]
+  },
+  "user": {
+    "role": "initiator",
+    "city": null
+  },
+  "safety": {
+    "signals": [],
+    "risk": "none",
+    "notes": null
+  },
+  "context": {
+    "summary": "Брак 2017/2018, сын 12. Квартира куплена до брака на нём, ипотеку большей частью платили в браке, закрыта в 2023. Жена о разводе не знает.",
+    "what_matters_most": "Остаться с сыном и не потерять квартиру"
+  },
+  "parties": {
+    "sides": [
+      "Сергей (инициатор)",
+      "жена",
+      "сын 12"
+    ],
+    "third_parties_affected": [
+      {
+        "who": "Банк",
+        "how": "Ипотека закрыта в 2023"
+      }
+    ],
+    "mentioned_not_affected": []
+  },
+  "screening": {
+    "children": "present",
+    "health_and_dependents": "absent",
+    "real_estate": "present",
+    "land": "absent",
+    "vehicles": "present",
+    "financial_assets": "unknown",
+    "business": "absent",
+    "ip_rights": "absent",
+    "valuables": "absent",
+    "debts": "absent",
+    "bankruptcy": "absent",
+    "encumbrances_disputes": "absent",
+    "transactions": "absent",
+    "foreign_element": "absent",
+    "income": "present",
+    "special_cases": "not_asked"
+  },
+  "key_issues": [
+    {
+      "issue": "Квартира до брака, ипотека в основном в браке",
+      "why": "Личная, но выплаты из общих доходов могут сделать часть общей"
+    },
+    {
+      "issue": "Место жительства сына 12 лет",
+      "why": "Мнение ребёнка с 10 лет учитывается обязательно; позиция жены неизвестна"
+    },
+    {
+      "issue": "Дата брака неточна",
+      "why": "Влияет на долю выплат, приходящуюся на брак"
+    }
+  ],
+  "direct_questions": [
+    {
+      "question": "Сын хочет жить со мной, вопрос решён?",
+      "preliminary_answer": "Мнение ребёнка с 10 лет учитывается обязательно, но не единственное; исход не обещан"
+    }
+  ],
+  "first_picture_given": true,
+  "facts": [
+    {
+      "fact": "Брак 2017 или 2018",
+      "why_legally_relevant": "Общее — нажитое после регистрации",
+      "norm": "СК 34",
+      "certainty": "approx"
+    },
+    {
+      "fact": "Квартира куплена до брака, на нём",
+      "why_legally_relevant": "Личное имущество",
+      "norm": "СК 36",
+      "certainty": "known"
+    },
+    {
+      "fact": "Ипотека в основном выплачена в браке из доходов семьи",
+      "why_legally_relevant": "Часть квартиры может быть признана общей",
+      "norm": "СК 37",
+      "certainty": "approx"
+    },
+    {
+      "fact": "Сын 12 лет, живёт с обоими, хочет жить с отцом",
+      "why_legally_relevant": "Учёт мнения ребёнка с 10 лет, место жительства",
+      "norm": "СК 57, 65",
+      "certainty": "known"
+    }
+  ],
+  "not_legally_relevant": [],
+  "unclear": [
+    {
+      "what": "Точная дата свадьбы",
+      "affects": "доля выплат в браке",
+      "document": "свидетельство о браке"
+    },
+    {
+      "what": "Суммы выплат по ипотеке до и после свадьбы",
+      "affects": "часть квартиры, которая может стать общей",
+      "document": "график платежей, справка банка"
+    },
+    {
+      "what": "Позиция жены по сыну",
+      "affects": "будет ли спор",
+      "document": null
+    },
+    {
+      "what": "Доход жены",
+      "affects": "размер алиментов",
+      "document": "справка о доходах"
+    }
+  ],
+  "marriage": {
+    "registration_date": {
+      "value": "2017 или 2018",
+      "certainty": "approx"
+    },
+    "separation_date": {
+      "value": null,
+      "certainty": "unknown"
+    },
+    "prenup": false
+  },
+  "children": [
+    {
+      "age": 12,
+      "common": true,
+      "born_before_marriage": null,
+      "lives_with": "оба",
+      "residence_after": "disputed",
+      "partner_position": "предположительно против",
+      "contact_with_other_parent": "живут вместе",
+      "expenses": null,
+      "notes": "сын хочет жить с отцом"
+    }
+  ],
+  "health_and_dependents": {
+    "pregnancy": false,
+    "child_under_3": false,
+    "disability_or_illness": false,
+    "dependents": null
+  },
+  "assets": [
+    {
+      "type": "apartment",
+      "description": "Квартира",
+      "country": "RU",
+      "acquired": {
+        "value": "до свадьбы",
+        "before_marriage": true
+      },
+      "funds_source": {
+        "value": "mixed",
+        "details": "ипотека: около года до свадьбы, около пяти лет в браке"
+      },
+      "registered_to": "Сергей",
+      "loan": {
+        "exists": true,
+        "in_whose_name": "Сергей",
+        "paid_by": "зарплата Сергея",
+        "closed": true,
+        "remaining": 0
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": {
+        "who_lives_or_uses": "семья",
+        "rented_out": null
+      },
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "disputed",
+        "reason": "куплена до брака, но большая часть ипотеки выплачена в браке",
+        "changed_from_first_picture": true
+      },
+      "questions_asked": 2
+    },
+    {
+      "type": "vehicle",
+      "description": "Старая машина",
+      "country": "RU",
+      "acquired": {
+        "value": "до свадьбы (не помнит)",
+        "before_marriage": true
+      },
+      "funds_source": {
+        "value": "unknown",
+        "details": null
+      },
+      "registered_to": "Сергей",
+      "loan": {
+        "exists": null,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": {
+        "who_lives_or_uses": null,
+        "rented_out": null
+      },
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "personal",
+        "reason": "куплена до брака, малой стоимости",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 1
+    }
+  ],
+  "business": [],
+  "debts": [],
+  "bankruptcy": {
+    "user": false,
+    "partner": false,
+    "risk": null
+  },
+  "transactions": [],
+  "foreign_element": false,
+  "income": {
+    "user": "официальный, регулярный",
+    "partner": "неизвестно",
+    "official": "user: да",
+    "regular": "user: да"
+  },
+  "goals": {
+    "priorities": [
+      "остаться с сыном",
+      "сохранить квартиру"
+    ],
+    "acceptable": null,
+    "unacceptable": null
+  },
+  "partner_view": {
+    "knows_about_divorce": false,
+    "expected_reaction": "предположительно против по сыну",
+    "conflict_level": "unknown",
+    "open_to_agreement": null
+  },
+  "urgent": [],
+  "closing": {
+    "short_conclusion": "Квартира из личной стала спорной; дата брака примерна; сын — главный открытый вопрос.",
+    "summary_confirmed_by_user": true,
+    "document_delivered_via": "имитация: Svodka_Sergey.docx",
+    "privacy_warning_given": true
+  }
+}

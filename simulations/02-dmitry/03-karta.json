@@ -1,0 +1,334 @@
+{
+  "status": "confirmed",
+  "stage": "summary",
+  "consent_to_check": true,
+  "completeness": {
+    "filled": 15,
+    "total": 17,
+    "missing": [
+      "15. Доходы (не спрашивали: детей нет)",
+      "16. Особые случаи (тема не звучала)"
+    ]
+  },
+  "user": {
+    "role": "partner_announced",
+    "city": "Москва"
+  },
+  "safety": {
+    "signals": [],
+    "risk": "none",
+    "notes": null
+  },
+  "context": {
+    "summary": "Брак 2012, детей нет. Доля 50% в ООО (2015) в 2024 переписана на мать без согласия жены. Квартира до брака, в 2018 дорогой ремонт за общий счёт. Общий кредит 2 млн.",
+    "what_matters_most": "Сохранить бизнес и квартиру"
+  },
+  "parties": {
+    "sides": [
+      "Дмитрий",
+      "жена (инициатор)"
+    ],
+    "third_parties_affected": [
+      {
+        "who": "Мать",
+        "how": "На неё оформлена доля 50% в ООО"
+      },
+      {
+        "who": "Партнёр по ООО",
+        "how": "Второй участник, доля 50%"
+      },
+      {
+        "who": "Банк",
+        "how": "Общий кредит 2 млн"
+      }
+    ],
+    "mentioned_not_affected": []
+  },
+  "screening": {
+    "children": "absent",
+    "health_and_dependents": "absent",
+    "real_estate": "present",
+    "land": "absent",
+    "vehicles": "present",
+    "financial_assets": "absent",
+    "business": "present",
+    "ip_rights": "absent",
+    "valuables": "absent",
+    "debts": "present",
+    "bankruptcy": "absent",
+    "encumbrances_disputes": "absent",
+    "transactions": "present",
+    "foreign_element": "absent",
+    "income": "not_asked",
+    "special_cases": "not_asked"
+  },
+  "key_issues": [
+    {
+      "issue": "Доля в ООО передана матери без согласия жены",
+      "why": "Доля общая; сделка может быть оспорена"
+    },
+    {
+      "issue": "Ремонт 2018 в добрачной квартире за общий счёт",
+      "why": "Квартира личная, но вложения могут дать основание на часть"
+    }
+  ],
+  "direct_questions": [
+    {
+      "question": "Если доля уже на маме — она же не делится?",
+      "preliminary_answer": "Делится: доля появилась в браке, общая; передача без согласия жены оспаривается"
+    }
+  ],
+  "first_picture_given": true,
+  "facts": [
+    {
+      "fact": "Брак с 2012",
+      "why_legally_relevant": "Общее — нажитое после регистрации",
+      "norm": "СК 34",
+      "certainty": "known"
+    },
+    {
+      "fact": "Доля 50% в ООО создана в 2015 на общие деньги",
+      "why_legally_relevant": "Доля, появившаяся в браке, общая",
+      "norm": "СК 34",
+      "certainty": "known"
+    },
+    {
+      "fact": "В 2024 доля передана матери без согласия жены",
+      "why_legally_relevant": "Сделка с общим имуществом без нотариального согласия оспаривается",
+      "norm": "СК 35; ООО 21",
+      "certainty": "known"
+    },
+    {
+      "fact": "Квартира куплена в 2010 до брака, на нём",
+      "why_legally_relevant": "Личная",
+      "norm": "СК 36",
+      "certainty": "known"
+    },
+    {
+      "fact": "В 2018 ремонт ~3 млн за общий счёт",
+      "why_legally_relevant": "Вложения могут признать общим",
+      "norm": "СК 37",
+      "certainty": "approx"
+    },
+    {
+      "fact": "Кредит 2 млн на машину жене",
+      "why_legally_relevant": "Общий долг на нужды семьи",
+      "norm": "СК 45",
+      "certainty": "known"
+    }
+  ],
+  "not_legally_relevant": [],
+  "unclear": [
+    {
+      "what": "Возмездность и форма передачи доли матери",
+      "affects": "прочность сделки",
+      "document": "договор, нотариальная сделка, выписка ЕГРЮЛ"
+    },
+    {
+      "what": "Стоимость доли ООО",
+      "affects": "размер спора",
+      "document": "отчётность ООО, оценка"
+    },
+    {
+      "what": "Сумма и документы по ремонту",
+      "affects": "претензия на часть квартиры",
+      "document": "договор подряда, платёжные документы"
+    },
+    {
+      "what": "Остаток кредита",
+      "affects": "общий долг",
+      "document": "справка банка"
+    }
+  ],
+  "marriage": {
+    "registration_date": {
+      "value": "2012",
+      "certainty": "known"
+    },
+    "separation_date": {
+      "value": null,
+      "certainty": "unknown"
+    },
+    "prenup": false
+  },
+  "children": [],
+  "health_and_dependents": {
+    "pregnancy": null,
+    "child_under_3": null,
+    "disability_or_illness": null,
+    "dependents": null
+  },
+  "assets": [
+    {
+      "type": "business_share",
+      "description": "50% в ООО",
+      "country": "RU",
+      "acquired": {
+        "value": "2015",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "common",
+        "details": "общие деньги"
+      },
+      "registered_to": "мать (с 2024)",
+      "loan": {
+        "exists": null,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": {
+        "who_lives_or_uses": null,
+        "rented_out": null
+      },
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "создана в браке; передача без согласия оспаривается",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 1
+    },
+    {
+      "type": "apartment",
+      "description": "Квартира в Москве",
+      "country": "RU",
+      "acquired": {
+        "value": "2010",
+        "before_marriage": true
+      },
+      "funds_source": {
+        "value": "personal_premarital",
+        "details": null
+      },
+      "registered_to": "Дмитрий",
+      "loan": {
+        "exists": false,
+        "in_whose_name": null,
+        "paid_by": null,
+        "closed": null,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": "ремонт 2018 ~3 млн за общий счёт",
+      "encumbrances": null,
+      "use": {
+        "who_lives_or_uses": null,
+        "rented_out": null
+      },
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "disputed",
+        "reason": "куплена до брака; ремонт за общие деньги мог увеличить стоимость",
+        "changed_from_first_picture": true
+      },
+      "questions_asked": 2
+    },
+    {
+      "type": "vehicle",
+      "description": "Машина жены",
+      "country": "RU",
+      "acquired": {
+        "value": "неизвестно",
+        "before_marriage": false
+      },
+      "funds_source": {
+        "value": "common",
+        "details": "кредит гасится из общих"
+      },
+      "registered_to": "жена",
+      "loan": {
+        "exists": true,
+        "in_whose_name": "совместный",
+        "paid_by": "общие",
+        "closed": false,
+        "remaining": null
+      },
+      "maternity_capital_or_subsidy": null,
+      "common_investments": null,
+      "encumbrances": null,
+      "use": {
+        "who_lives_or_uses": "жена",
+        "rented_out": null
+      },
+      "approx_value": null,
+      "preliminary_qualification": {
+        "value": "common",
+        "reason": "куплена в браке",
+        "changed_from_first_picture": false
+      },
+      "questions_asked": 2
+    }
+  ],
+  "business": [
+    {
+      "form": "ООО, доля 50%",
+      "status": "active",
+      "created": "2015",
+      "funds_source": "общие",
+      "owners": "Дмитрий (до 2024), партнёр",
+      "registered_to": "мать (с 2024)",
+      "charter_restrictions": null,
+      "managed_by": null,
+      "income": null,
+      "debts_guarantees": "лично не давал"
+    }
+  ],
+  "debts": [
+    {
+      "type": "кредит",
+      "creditor": "банк",
+      "amount": "2 млн (остаток неизвестен)",
+      "purpose": "машина жене",
+      "in_whose_name": "общий",
+      "family_needs": true
+    }
+  ],
+  "bankruptcy": {
+    "user": false,
+    "partner": false,
+    "risk": null
+  },
+  "transactions": [
+    {
+      "what": "Передача доли 50% ООО матери «на всякий случай»",
+      "when": "2024",
+      "to_whom": "мать",
+      "spouse_consent": false,
+      "status": "done"
+    }
+  ],
+  "foreign_element": false,
+  "income": {
+    "user": null,
+    "partner": null,
+    "official": null,
+    "regular": null
+  },
+  "goals": {
+    "priorities": [
+      "сохранить бизнес",
+      "сохранить квартиру"
+    ],
+    "acceptable": null,
+    "unacceptable": "делить бизнес"
+  },
+  "partner_view": {
+    "knows_about_divorce": true,
+    "expected_reaction": "жена инициатор",
+    "conflict_level": "high",
+    "open_to_agreement": null
+  },
+  "urgent": [],
+  "closing": {
+    "short_conclusion": "Доля общая, передача маме оспорима; квартира личная, но ремонт делает её спорной.",
+    "summary_confirmed_by_user": true,
+    "document_delivered_via": "имитация: Svodka_Dmitry.docx",
+    "privacy_warning_given": true
+  }
+}

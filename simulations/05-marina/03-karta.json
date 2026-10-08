@@ -1,0 +1,118 @@
+{
+  "status": "draft",
+  "stage": "start",
+  "consent_to_check": null,
+  "completeness": {
+    "filled": 1,
+    "total": 17,
+    "missing": [
+      "1–16, кроме безопасности (сбор остановлен)"
+    ]
+  },
+  "user": {
+    "role": "initiator",
+    "city": null
+  },
+  "safety": {
+    "signals": [
+      "боится сообщить мужу",
+      "муж угрожал вчера"
+    ],
+    "risk": "reported",
+    "notes": "Прямой вопрос задан. Подтверждены угрозы. Названы 112, линия 8-800-7000-600, полиция. Сбор остановлен."
+  },
+  "context": {
+    "summary": "Хочет развестись, муж не знает, вчера угрожал; дома с сыном.",
+    "what_matters_most": null
+  },
+  "parties": {
+    "sides": [
+      "Марина",
+      "муж",
+      "сын"
+    ],
+    "third_parties_affected": [],
+    "mentioned_not_affected": []
+  },
+  "screening": {
+    "children": "unknown",
+    "health_and_dependents": "not_asked",
+    "real_estate": "not_asked",
+    "land": "not_asked",
+    "vehicles": "not_asked",
+    "financial_assets": "not_asked",
+    "business": "not_asked",
+    "ip_rights": "not_asked",
+    "valuables": "not_asked",
+    "debts": "not_asked",
+    "bankruptcy": "not_asked",
+    "encumbrances_disputes": "not_asked",
+    "transactions": "not_asked",
+    "foreign_element": "not_asked",
+    "income": "not_asked",
+    "special_cases": "not_asked"
+  },
+  "key_issues": [],
+  "direct_questions": [],
+  "first_picture_given": false,
+  "facts": [],
+  "not_legally_relevant": [],
+  "unclear": [],
+  "marriage": {
+    "registration_date": {
+      "value": null,
+      "certainty": "unknown"
+    },
+    "separation_date": {
+      "value": null,
+      "certainty": "unknown"
+    },
+    "prenup": null
+  },
+  "children": [],
+  "health_and_dependents": {
+    "pregnancy": null,
+    "child_under_3": null,
+    "disability_or_illness": null,
+    "dependents": null
+  },
+  "assets": [],
+  "business": [],
+  "debts": [],
+  "bankruptcy": {
+    "user": null,
+    "partner": null,
+    "risk": null
+  },
+  "transactions": [],
+  "foreign_element": null,
+  "income": {
+    "user": null,
+    "partner": null,
+    "official": null,
+    "regular": null
+  },
+  "goals": {
+    "priorities": [],
+    "acceptable": null,
+    "unacceptable": null
+  },
+  "partner_view": {
+    "knows_about_divorce": false,
+    "expected_reaction": "агрессия, угрозы",
+    "conflict_level": "high",
+    "open_to_agreement": false
+  },
+  "urgent": [
+    {
+      "what": "Угрозы мужа",
+      "when": "вчера"
+    }
+  ],
+  "closing": {
+    "short_conclusion": "Сбор остановлен по безопасности.",
+    "summary_confirmed_by_user": true,
+    "document_delivered_via": "имитация: сводка текстом",
+    "privacy_warning_given": true
+  }
+}
